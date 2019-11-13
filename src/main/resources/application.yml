@@ -1,0 +1,28 @@
+
+server:
+  port: 9999
+  servlet:
+    context-path: /demo
+
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&useSSL=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+#  jpa:
+#    show-sql: true
+
+
+mybatis:
+  mapper-locations: mapper/*Mapper.xml
+  configuration:
+    map-underscore-to-camel-case: true
+
+#logging:
+#  level:
+#    com:
+#      example:
+#        demo:
+#          dao: debug

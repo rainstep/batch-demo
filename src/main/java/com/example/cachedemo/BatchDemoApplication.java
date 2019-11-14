@@ -4,12 +4,12 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@MapperScan(basePackages = "com.example.demo.dao.mybatis.mapper")
+@MapperScan(basePackages = "com.example.batchdemo.dao.mybatis.mapper")
 @SpringBootApplication
-public class CacheDemoApplication {
+public class BatchDemoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CacheDemoApplication.class, args);
+        SpringApplication.run(BatchDemoApplication.class, args);
     }
 
 }

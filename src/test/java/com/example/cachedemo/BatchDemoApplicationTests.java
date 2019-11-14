@@ -18,7 +18,7 @@ import java.util.Random;
 @SpringBootTest
 @ActiveProfiles("mybatis")
 //@ActiveProfiles("jpa")
-public class CacheDemoApplicationTests {
+public class BatchDemoApplicationTests {
     @Autowired
     private UserService userService;
 

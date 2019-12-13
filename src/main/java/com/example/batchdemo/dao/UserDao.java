@@ -1,6 +1,6 @@
-package com.example.cachedemo.dao;
+package com.example.batchdemo.dao;
 
-import com.example.cachedemo.entity.User;
+import com.example.batchdemo.entity.User;
 
 import java.util.List;
 

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.example.cachedemo.dao.mybatis.mapper.UserMapper">
-    <insert id="batchInsert" keyProperty="userId" useGeneratedKeys="true" parameterType="com.example.cachedemo.entity.User">
+<mapper namespace="com.example.batchdemo.dao.mybatis.mapper.UserMapper">
+    <insert id="batchInsert" keyProperty="userId" useGeneratedKeys="true" parameterType="com.example.batchdemo.entity.User">
         insert into user(user_name) values
         <foreach collection="list" item="item" separator=",">
             (#{item.userName})
         </foreach>
     </insert>
 
-    <update id="batchUpdate" parameterType="com.example.cachedemo.entity.User">
+    <update id="batchUpdate" parameterType="com.example.batchdemo.entity.User">
         update user set user_name = case user_id
         <foreach collection="list" item="item">
             when #{item.userId} then #{item.userName}

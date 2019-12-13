@@ -1,7 +1,7 @@
-package com.example.cachedemo.controller;
+package com.example.batchdemo.controller;
 
-import com.example.cachedemo.entity.User;
-import com.example.cachedemo.service.UserService;
+import com.example.batchdemo.entity.User;
+import com.example.batchdemo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -32,19 +32,16 @@ public class UserController {
 
     @PostMapping("/add")
     public User add(String userName) {
-//        userService.clearCache();
         return userService.add(userName);
     }
 
     @PostMapping("/update")
     public User update(int userId, String userName) {
-//        userService.clearCache();
         return userService.update(userId, userName);
     }
 
     @GetMapping("/delete/{userId}")
     public boolean delete(@PathVariable int userId) {
-//        userService.clearCache();
         return userService.delete(userId);
     }
 

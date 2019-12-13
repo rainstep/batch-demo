@@ -1,4 +1,4 @@
-package com.example.cachedemo;
+package com.example.batchdemo;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;

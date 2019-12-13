@@ -1,7 +1,7 @@
-package com.example.cachedemo.service;
+package com.example.batchdemo.service;
 
-import com.example.cachedemo.dao.UserDao;
-import com.example.cachedemo.entity.User;
+import com.example.batchdemo.dao.UserDao;
+import com.example.batchdemo.entity.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

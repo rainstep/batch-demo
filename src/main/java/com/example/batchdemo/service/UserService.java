@@ -1,6 +1,6 @@
-package com.example.cachedemo.service;
+package com.example.batchdemo.service;
 
-import com.example.cachedemo.entity.User;
+import com.example.batchdemo.entity.User;
 
 import java.util.List;
 import java.util.Map;

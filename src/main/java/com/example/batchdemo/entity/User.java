@@ -1,4 +1,4 @@
-package com.example.cachedemo.entity;
+package com.example.batchdemo.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

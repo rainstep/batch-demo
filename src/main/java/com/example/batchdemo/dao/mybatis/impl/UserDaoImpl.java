@@ -1,8 +1,8 @@
-package com.example.cachedemo.dao.mybatis.impl;
+package com.example.batchdemo.dao.mybatis.impl;
 
-import com.example.cachedemo.dao.UserDao;
-import com.example.cachedemo.dao.mybatis.mapper.UserMapper;
-import com.example.cachedemo.entity.User;
+import com.example.batchdemo.dao.UserDao;
+import com.example.batchdemo.dao.mybatis.mapper.UserMapper;
+import com.example.batchdemo.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Repository;

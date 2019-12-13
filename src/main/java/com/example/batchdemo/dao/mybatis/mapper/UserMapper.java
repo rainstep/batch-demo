@@ -1,6 +1,6 @@
-package com.example.cachedemo.dao.mybatis.mapper;
+package com.example.batchdemo.dao.mybatis.mapper;
 
-import com.example.cachedemo.entity.User;
+import com.example.batchdemo.entity.User;
 import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;

@@ -1,8 +1,8 @@
-package com.example.cachedemo.dao.jpa.impl;
+package com.example.batchdemo.dao.jpa.impl;
 
-import com.example.cachedemo.dao.UserDao;
-import com.example.cachedemo.dao.jpa.repository.UserRepository;
-import com.example.cachedemo.entity.User;
+import com.example.batchdemo.dao.UserDao;
+import com.example.batchdemo.dao.jpa.repository.UserRepository;
+import com.example.batchdemo.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Profile;
 import org.springframework.data.domain.Page;
